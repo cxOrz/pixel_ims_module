@@ -4,7 +4,7 @@ A magisk module enables VoLTE, VoNR, Wifi Calling and some enhanced features for
 ## How to use
 Just install the module through Magisk App then reboot, open SIM Setting and turn on the options you need.
 
-1. Download the latest release [here](https://github.com/cxOrz/pixel_ims_module/releases).
+1. Download the latest [pixel_ims_module.zip](https://github.com/cxOrz/pixel_ims_module/releases).
 2. Install the zip file using your **Magisk App**.
 3. Reboot your device.
 
