@@ -18,6 +18,7 @@ You can find your carrier config files in the directory: `/data/user_de/0/com.an
 - `carrier_wfc_ims_available_bool`: Flag specifying whether WFC over IMS should be available for carrier: independent of carrier provisioning.
 - `carrier_wfc_supports_wifi_only_bool`: Flag specifying whether WFC over IMS supports the "wifi only" option.
 - `editable_enhanced_4g_lte_bool`: Determine whether user can toggle Enhanced 4G LTE Mode in Settings.
+- `enhanced_4g_lte_on_by_default_bool`: Sets the default state for the "Enhanced 4G LTE" or "Advanced Calling" mode toggle set by the user.
 - `editable_wfc_mode_bool`: Determine whether user can switch Wi-Fi preferred or Cellular preferred in calling preference.
 - `editable_wfc_roaming_mode_bool`: Determine whether user can change Wi-Fi Calling preference in roaming.
 - `hide_lte_plus_data_icon_bool`: Boolean indicating if LTE+ icon should be shown if available.
