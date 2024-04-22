@@ -1,5 +1,5 @@
 id=pixel_ims_module
 name=Pixel IMS Module
-version=0.1
+version=1.0
 author=cxOrz
 description=Enable VoLTE, VoNR, Wifi Calling and some enhanced features for Pixel devices.

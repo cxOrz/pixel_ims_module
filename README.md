@@ -26,6 +26,10 @@ You can find your carrier config files in the directory: `/data/user_de/0/com.an
 - `vonr_enabled_bool`: Flag specifying whether VoNR should be enabled for carrier.
 - `vonr_setting_visibility_bool`: Boolean indicating if the VoNR setting is visible in the Call Settings menu.
 
+## Screenshots
+
+![Screenshot](docs/screenshot/screenshot-1.webp)
+
 ## Availability
 
 **Tested on:**

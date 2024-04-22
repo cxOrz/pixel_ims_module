@@ -18,9 +18,10 @@ insert_string=\
 find $file_path -maxdepth 1 -type f -name "carrierconfig-com.google.android.carrier*.xml" ! -name "*nosim*" | while read -r file; do
   if grep -q '</bundle>' "$file"; then
       if grep -q 'PIXEL_IMS_MODULE' "$file"; then
-        echo "Config already inserted, skip now."
+        echo "Replace with the latest config."
+        sed -i "/<!--PIXEL_IMS_MODULE_START-->/,/<!--PIXEL_IMS_MODULE_END-->/c\\$insert_string" $file
       else
-        sed -i "/<\/bundle>/i $insert_string" "$file"
+        sed -i "/<\/bundle>/i $insert_string" $file
         echo "Inserted test string into $file."
       fi
   else
